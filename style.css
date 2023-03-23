@@ -53,3 +53,40 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 96px;
+}
+.headline h2 {
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+    max-width: 512px;
+}
+.headline p {
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 512;
+}
+.headline .buttons {
+    margin-top: 32px;
+}
+.headline .buttons a {
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 24px;
+}
+.headline .buttons a.get-started {
+    padding: 12px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 0 16px;
+    -webkit-border-radius: 0 16px;
+    -moz-border-radius: 0 16px;
+    -ms-border-radius: 0 16px;
+    -o-border-radius: 0 16px;
+}
